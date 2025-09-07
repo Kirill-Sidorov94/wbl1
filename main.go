@@ -11,4 +11,7 @@ func main() {
 	
 	// l1.2 go run l1-2.go main.go
 	//CompetitiveSquaring()
+	
+	// l1.3 go run l1-3.go main.go
+	//MultipleWorkersRunning(4)
 }
