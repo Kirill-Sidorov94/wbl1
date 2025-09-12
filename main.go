@@ -17,4 +17,7 @@ func main() {
 	
 	// l.4 go run l1-4.go main.go
 	//exitSigTerm()
+	
+	// l.5 go run l1-5.go main.go
+	//channelTimeout()
 }
