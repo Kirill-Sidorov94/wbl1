@@ -14,4 +14,7 @@ func main() {
 	
 	// l1.3 go run l1-3.go main.go
 	//MultipleWorkersRunning(4)
+	
+	// l.4 go run l1-4.go main.go
+	//exitSigTerm()
 }
