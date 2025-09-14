@@ -20,4 +20,7 @@ func main() {
 	
 	// l.5 go run l1-5.go main.go
 	//channelTimeout()
+	
+	// l.6 go run l1-6.go main.go
+	stopGoRoutine() 
 }
