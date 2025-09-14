@@ -22,5 +22,8 @@ func main() {
 	//channelTimeout()
 	
 	// l.6 go run l1-6.go main.go
-	stopGoRoutine() 
+	//stopGoRoutine()
+	
+	// l.7 go run l1-7.go main.go
+	//concurrentEntryInMap()
 }
