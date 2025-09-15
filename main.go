@@ -35,4 +35,7 @@ func main() {
 	// 	log.Println("replaceBit(): %v", err)
 	// }
 	// fmt.Println(replaceNum)
+	
+	// l.9 go run l1-9.go main.go
+	// conveyorOfNumbers()
 }
