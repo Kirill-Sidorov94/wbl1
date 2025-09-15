@@ -1,7 +1,8 @@
 package main
 
 import(
-	//"fmt"
+	// "fmt"
+	// "log"
 )
 
 func main() {
@@ -26,4 +27,12 @@ func main() {
 	
 	// l.7 go run l1-7.go main.go
 	//concurrentEntryInMap()
+	
+	// l.8 go run l1-8.go main.go
+	// num := int64(25)
+	// replaceNum, err := replaceBit(num, 8, true)
+	// if err != nil {
+	// 	log.Println("replaceBit(): %v", err)
+	// }
+	// fmt.Println(replaceNum)
 }
