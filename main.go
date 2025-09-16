@@ -44,4 +44,8 @@ func main() {
 	
 	// l1.11 go run l1-11.go main.go
 	// intersectionOfSets()
+	
+
+	// l1.12 go run l1-12.go main.go
+	// setOfStrings()
 }
