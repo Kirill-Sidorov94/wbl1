@@ -50,4 +50,10 @@ func main() {
 	
 	// l1.13 go run l1-13.go main.go
 	// exchangeOfValues()
+	
+	// l1.14 go run l1-14.go main.go
+	// num := 14
+	// typeDefenition(num)
+	// ch := make(chan any, 1)
+	// typeDefenition(ch)
 }
