@@ -16,19 +16,19 @@ func main() {
 	// l1.3 go run l1-3.go main.go
 	//MultipleWorkersRunning(4)
 	
-	// l.4 go run l1-4.go main.go
+	// l1.4 go run l1-4.go main.go
 	//exitSigTerm()
 	
-	// l.5 go run l1-5.go main.go
+	// l1.5 go run l1-5.go main.go
 	//channelTimeout()
 	
-	// l.6 go run l1-6.go main.go
+	// l1.6 go run l1-6.go main.go
 	//stopGoRoutine()
 	
-	// l.7 go run l1-7.go main.go
+	// l1.7 go run l1-7.go main.go
 	//concurrentEntryInMap()
 	
-	// l.8 go run l1-8.go main.go
+	// l1.8 go run l1-8.go main.go
 	// num := int64(25)
 	// replaceNum, err := replaceBit(num, 8, true)
 	// if err != nil {
@@ -36,6 +36,9 @@ func main() {
 	// }
 	// fmt.Println(replaceNum)
 	
-	// l.9 go run l1-9.go main.go
+	// l1.9 go run l1-9.go main.go
 	// conveyorOfNumbers()
+	
+	// l1.10 go run l1-10.go main.go
+	//temperatureGrouping()
 }
