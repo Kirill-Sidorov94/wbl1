@@ -1,11 +1,14 @@
 package main
 
 import(
-	// "fmt"
-	// "log"
+	//"fmt"
+	//"time"
+	//"math/rand"
 )
 
 func main() {
+	//rand.Seed(time.Now().UnixNano())
+
 	// l1.1 go run l1-1.go main.go
 	// a := Action{Human: Human{Name: "action"}}
 	//fmt.Println(a.GetName())
@@ -32,7 +35,7 @@ func main() {
 	// num := int64(25)
 	// replaceNum, err := replaceBit(num, 8, true)
 	// if err != nil {
-	// 	log.Println("replaceBit(): %v", err)
+	// 	fmt.Printf("replaceBit(): %v", err)
 	// }
 	// fmt.Println(replaceNum)
 	
@@ -56,4 +59,12 @@ func main() {
 	// typeDefenition(num)
 	// ch := make(chan any, 1)
 	// typeDefenition(ch)
+	
+	// l1.16 go run l1-16.go main.go
+	// unsortArr := make([]int, 10)
+    // for i := 0; i < len(unsortArr); i++ {
+    //     unsortArr[i] = rand.Intn(101)
+    // }
+    // sortArr := quickSort(unsortArr)
+    // fmt.Println(sortArr)
 }

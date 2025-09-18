@@ -12,8 +12,6 @@ func conveyorOfNumbers() {
 	ctx, cancel := context.WithTimeout(context.Background(), 10 * time.Second)
 	defer cancel()
 
-	rand.Seed(time.Now().UnixNano())
-
 	var arr [20000]int
     for i := 0; i < len(arr); i++ {
         arr[i] = rand.Int()
