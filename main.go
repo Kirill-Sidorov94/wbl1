@@ -75,4 +75,7 @@ func main() {
     
     // l1.18 go run l1-18.go main.go
     // competitiveCounter(20)
+    
+    // l1.19 go run l1-19.go main.go
+    // fmt.Println(stringReversal("Hello world"))
 }
