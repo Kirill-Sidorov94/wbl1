@@ -68,8 +68,11 @@ func main() {
     // sortArr := quickSort(unsortArr)
     // fmt.Println(sortArr)
     
-    // l1.17 go run l1-17.go main.go
+    // l1.17 go run l1-16.go l1-17.go main.go
     // randIndex := rand.Intn(len(sortArr))
     // fmt.Println(binarySearch(sortArr, sortArr[randIndex]))
     // fmt.Println(binarySearch(sortArr, 101))
+    
+    // l1.18 go run l1-18.go main.go
+    // competitiveCounter(20)
 }
