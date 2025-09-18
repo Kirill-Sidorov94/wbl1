@@ -1,9 +1,9 @@
 package main
 
 import(
-	//"fmt"
-	//"time"
-	//"math/rand"
+	// "fmt"
+	// "time"
+	// "math/rand"
 )
 
 func main() {
@@ -67,4 +67,9 @@ func main() {
     // }
     // sortArr := quickSort(unsortArr)
     // fmt.Println(sortArr)
+    
+    // l1.17 go run l1-17.go main.go
+    // randIndex := rand.Intn(len(sortArr))
+    // fmt.Println(binarySearch(sortArr, sortArr[randIndex]))
+    // fmt.Println(binarySearch(sortArr, 101))
 }
