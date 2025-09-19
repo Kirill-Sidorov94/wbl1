@@ -7,7 +7,10 @@ import (
 func exchangeOfValues() {
 	a := 10
 	b := 15
-	a, b = b, a
+	
+	a = a ^ b
+	b = a ^ b
+	a = a ^ b
 
 	fmt.Println(a)
 	fmt.Println(b)
