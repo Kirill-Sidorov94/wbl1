@@ -81,4 +81,29 @@ func main() {
     
     // l1.20 go run l1-20.go main.go
     // fmt.Println(revertWordInSentence("Hello world"))
+    
+    // l1.21 go run l1-21.go main.go
+    // adapterDemonstaration()
+    
+    // l1.22 go run l1-22.go main.go
+    // workingWithBigNums()
+    
+    // l1.23 go run l1-23.go main.go
+    // sl := []int{1, 2, 3, 4, 5, 6}
+    // newSl := removeElFromSlice(sl, 3)
+    // fmt.Println(newSl)
+    
+    // l1.24 go run l1-24.go main.go
+    // p1 := NewPoint(55.7558, 37.6173)
+	// p2 := NewPoint(59.9343, 30.3351)
+	// fmt.Println(p1.Distance(p2))
+	
+	// l1.25 go run l1-25.go main.go
+	// customSleep(4 * time.Second)
+	
+	// l1.26 go run l1-26.go main.go
+	// uniqStr := "absdefg"
+	// unUniqStr := "abSsdefg"
+	// fmt.Println(uniqSymbolsToStr(uniqStr))
+	// fmt.Println(uniqSymbolsToStr(unUniqStr))
 }
