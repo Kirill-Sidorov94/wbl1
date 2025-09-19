@@ -78,4 +78,7 @@ func main() {
     
     // l1.19 go run l1-19.go main.go
     // fmt.Println(stringReversal("Hello world"))
+    
+    // l1.20 go run l1-20.go main.go
+    // fmt.Println(revertWordInSentence("Hello world"))
 }
