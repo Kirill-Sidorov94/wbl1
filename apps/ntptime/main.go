@@ -10,7 +10,7 @@ import (
 func main() {
 	time, err := ntpTime()
 	if err != nil {
-		fmt.Fprintln(os.Stderr, "main: %v", err)
+		fmt.Fprintf(os.Stderr, "main: %v\n", err)
 		os.Exit(1)
 	}
 	fmt.Println(time)
