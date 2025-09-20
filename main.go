@@ -1,11 +1,9 @@
 package main
 
 import(
-	"fmt"
+	// "fmt"
 	// "time"
 	// "math/rand"
-	"os"
-	"github.com/Kirill-Sidorov94/wbl1/lib"
 )
 
 func main() {
@@ -108,11 +106,4 @@ func main() {
 	// unUniqStr := "abSsdefg"
 	// fmt.Println(uniqSymbolsToStr(uniqStr))
 	// fmt.Println(uniqSymbolsToStr(unUniqStr))
-	
-	// l2.8 go run l2-8.go main.go
-	if time, err := lib.NtpTime(); err != nil {
-		fmt.Fprintln(os.Stderr, "main: %v", err)
-		os.Exit(1)
-	}
-	fmt.Println(time)
 }
