@@ -1,7 +1,7 @@
 package main
 
 import(
-	// "fmt"
+	"fmt"
 	// "time"
 	// "math/rand"
 )
@@ -106,4 +106,8 @@ func main() {
 	// unUniqStr := "abSsdefg"
 	// fmt.Println(uniqSymbolsToStr(uniqStr))
 	// fmt.Println(uniqSymbolsToStr(unUniqStr))
+	
+	// l2.9 go run l2-9.go main.go
+	s, _ := unpackingString("qw2e\\4\\5\\62")
+	fmt.Println(s)
 }

@@ -15,6 +15,6 @@ func typeDefenition(a any) {
 	case chan any:
 		fmt.Println("type - chan")
 	default:
-		fmt.Println("unavailable type - %v", t)
+		fmt.Printf("unavailable type - %v", t)
 	}
 }
