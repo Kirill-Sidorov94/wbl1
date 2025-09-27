@@ -9,16 +9,16 @@ import (
 
 var (
 	numbersOnlyRegex = regexp.MustCompile(`^[0-9]+$`)
-	pattern = regexp.MustCompile(`([A-Za-z]|\\\d)(\d*)`)
+	pattern = regexp.MustCompile(`(\p{L}|\\\d)(\d*)`)
 )
 
 func unpackingString(str string) (string, error) {
-	if numbersOnlyRegex.MatchString(str) {
-		return "", fmt.Errorf("str - %s contains only multipliers", str)
-	}
-
 	if str == "" {
 		return "", nil
+	}
+	
+	if numbersOnlyRegex.MatchString(str) {
+		return "", fmt.Errorf("str - %s contains only multipliers", str)
 	}
 
 	return pattern.ReplaceAllStringFunc(str, func(match string) string {

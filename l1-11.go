@@ -15,11 +15,11 @@ func intersectionOfSets() {
 		size = len(sl2)
 	}
 
-	m := make(map[int]bool, size)
+	m := make(map[int]struct{}, size)
 	result := make([]int, 0, size)
 
 	for i := range sl1 {
-		m[sl1[i]] = true
+		m[sl1[i]] = struct{}{}
 	}
 
 	for i := range sl2 {

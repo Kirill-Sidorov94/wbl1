@@ -6,12 +6,12 @@ import (
 
 func setOfStrings() {
 	s := []string{"cat", "cat", "dog", "cat", "tree"}
-	m := make(map[string]bool, len(s))
+	m := make(map[string]struct{}, len(s))
 	r := make([]string, 0, len(s))
 
 	for i := range s {
 		if _, ok := m[s[i]]; !ok {
-			m[s[i]] = true
+			m[s[i]] = struct{}{}
 			r = append(r, s[i])
 		}
 	}
